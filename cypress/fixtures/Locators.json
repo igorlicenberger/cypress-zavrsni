@@ -1,0 +1,100 @@
+{
+    "Header" : {
+        "Login" : "a[href='/login']",
+        "Register" : "a[href='/register']",
+        "Signout" : "a[href='#']",
+        "Gradebook" : ".navbar > :nth-child(1) > :nth-child(1) > .nav-link",
+        "MyGradebook" : "a[href='/my-gradebook/1339']",
+        "CreateGradebook" : "a[href='/create-gradebook']",
+        "Professors" : "a[href='/gradebooks#']",
+        "AllProfessors" : "a[href='/all-professors']",
+        "CreateProfessor" : "a[href='/create-professor']"
+    },
+
+    "Login" : {
+        "Email" : "input[type='text']",
+        "Password" :  "input[type='password']",
+        "Submit" : "button[type='submit']"
+    },
+
+    "Register": {
+        "FirstName": "#firstName",
+        "LastName": "#lastName",
+        "Password": "#password",
+        "ConfirmedPassword": "#passwordConfirmation",
+        "Email":"#email",
+        "CheckBox": "termsAndConditions",
+        "Submit": "button[type='submit']"
+    },
+
+    "CreateStudent" : {
+        "FirstName": "#firstName",
+        "LastName": "#lastName",
+        "AddImageButton" : ":nth-child(3) > .btn",
+        "ImageUrl": ".form-group > div > .form-control",
+        "Submit": ".container > :nth-child(4)"
+    },
+
+    "CreateGradebook" : {
+        "GradebookTitle" : "#title",
+        "Professor" : "#professor",
+        "Submit": ".btn"
+    },
+
+    "Logout" : {
+        "Signout" : "a[href='#']"
+    },
+    "Gradebook" : {
+        "GradebookFilter" : ".form-control",
+        "SearchButton": ".mt-3",
+        "NextButton" : ".ml-2",
+        "PreviusButton" : ".mr-2"
+    },
+
+    "MyGradebook" : {
+        "AddStudent" : "tr > :nth-child(1) > .btn",
+        "SubmitComment" : ":nth-child(5)> .btn",
+        "AddComment" : "textarea[placeholder='Writte your comment']",
+        "DeleteComment" : ".comments-box > :nth-child(2) > div > .btn",
+        "EditGradebook" : ":nth-child(2) > .btn",
+        "SubmitButton" : ".btn"
+    },
+
+    "AllProfessors" : {
+        "ProfessorsFilter" : ".form-control"
+    },
+
+    "CreateProfessor" : {
+        "FirstName": "#firstName",
+        "LastName": "#lastName",
+        "AddImageButton": ".mb-2 > .btn",
+        "RemoveImage" : ":nth-child(3) > div > :nth-child(2)",
+        "MoveImageUp" : ":nth-child(4) > div > :nth-child(3)",
+        "MoveImageDown" : ":nth-child(3) > div > :nth-child(4)",
+        "ImageUrl" : ".form-control",
+        "Submit": "button[type='submit']"
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
